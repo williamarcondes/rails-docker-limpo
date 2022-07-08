@@ -51,4 +51,5 @@ rails db:migrate
 ## adicionando crud comments
 ```
 rails g resource comment post:references content:text
+rails db:migrate
 ```
