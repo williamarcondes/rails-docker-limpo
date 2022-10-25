@@ -1,3 +1,12 @@
+# Tudo é Objeto
+1.odd?
+2.even?
+"Will".count('l')
+"will".length
+"Trybe".reverse
+[1, 2, 3].last
+
+
 # Cálculos
 
 ```ruby
@@ -36,6 +45,8 @@ else
 end
 ```
 
+# a menos que
+
 ```ruby
 unless x == 0
   puts "X não é 0"
@@ -43,6 +54,8 @@ else
   puts "X é 0"
 end
 ```
+
+# switch
 
 ```ruby
 message = case grade
@@ -66,6 +79,7 @@ end
 puts "0" if x == 0
 ```
 
+# while
 ```ruby
 x = 0
 
@@ -75,6 +89,7 @@ while x < 10
 end
 ```
 
+# until
 ```ruby
 x = 0
 
@@ -84,20 +99,21 @@ until x == 10
 end
 ```
 
+# for
 ```ruby
 for i in [1, 2, 3]
   puts i
 end
 ```
 
+# each
 ```ruby
 [1,2,3].each do |i|
   puts i
 end
 ```
 
-# Symbol
-
+# Símbolos
 ```ruby
 :abcd
 :aaa_daa
@@ -107,7 +123,6 @@ end
 ```
 
 # Range
-
 ```ruby
 (1..10)
 (1...10).to_a
@@ -116,7 +131,6 @@ end
 ```
 
 # Range de letras
-
 ```ruby
 ('a'..'z') === 'q'
 ('a'..'z').to_a
@@ -139,7 +153,7 @@ def my_method(my_first_argument, my_last_optional_argument = false)
 end
 ```
 
-# Object
+# Tudo é objeto
 
 ```ruby
 "Hi".size
@@ -155,6 +169,8 @@ end
 -1.abs
 ```
 
+# Regex
+
 ```ruby
 /a/.match("aaa")
 ```
@@ -166,7 +182,7 @@ String.new("aaaa")
 String.class
 ```
 
-# Classes
+# P.O>O
 
 ```ruby
 class Gato
@@ -255,7 +271,7 @@ dog = Dog.new
 dog.mad?
 ```
 
-# == and ===
+# Operador == and ===
 
 ```ruby
 /a/ == 'a'
@@ -298,7 +314,7 @@ when MyAwesomeClass
 end
 ```
 
-# Array
+# Manipulando Array
 
 ```ruby
 list_of_chars = ["a", "b", "c"]
@@ -319,7 +335,7 @@ list_of_chars.size
 list_of_chars.join(",")
 ```
 
-# Hash
+# Manipulando Hash
 
 ```ruby
 hash = { :a => 10, :b => 5 }
@@ -335,7 +351,7 @@ hash.merge(hash2)
 
 # Functional programming
 
-## Block
+## Blocos ( estilo Arrow function)
 
 ```ruby
 [1,2,3].each do |item|
@@ -408,7 +424,7 @@ end
 Dog.say_hi
 ```
 
-# P.O.O
+# P.O.O Herança
 
 ```ruby
 Array.ancestors
