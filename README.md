@@ -6,7 +6,7 @@
 O Docker cria os arquivos com uma permissão diferente de seu sistema, execute este comando sempre que retornar o erro `permission denied` repetindo novamente o último comando
 
 ```
-sudo chown -R $USER:$USER .
+sudo chown -R $USER: .
 ```
 Depois que gerar o banco, o Dockerfile deve criar um grupo para não ocorrer novamente erros assim
 
